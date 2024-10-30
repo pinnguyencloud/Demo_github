@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.search-header {
+  margin: 5px;
+  margin-left: 12px;
+  width: 590px;
+}
+
+.nav-bar-right {
+  background-color: green;
+  margin-right: 14px;
+  padding: 5px;
+  width: 40px;
+  text-align: center;
+  border-radius: 3px;
+}
+.btn-modal-right {
+  margin-right: 30px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.modal-dialog {
+  max-width: 700px;
+}
+.modal-body .form-label {
+  font-weight: bold;
+}
+.form-select,
+.form-control {
+  height: calc(2.25rem + 2px);
+}
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.checkbox-group .form-check {
+  flex-basis: 48%;
+}
